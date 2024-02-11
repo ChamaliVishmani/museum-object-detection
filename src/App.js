@@ -25,17 +25,15 @@ function App() {
         minHeight={450}
         maxHeight={500}
         width="100%"
+        align={"center"}
       >
-        <Center>
-          <Heading size="2xl" color="black" padding={4}>
-            Colombo National Museum
-          </Heading>
-        </Center>
-        <Center>
-          <Heading size="2xl" color="GrayText" padding={4}>
-            Cultural Garment Scanner
-          </Heading>
-        </Center>
+        <Heading size="2xl" color="black" padding={4}>
+          Colombo National Museum
+        </Heading>
+
+        <Heading size="2xl" color="GrayText" padding={4}>
+          Cultural Garment Scanner
+        </Heading>
       </Card>
       <Container>
         <Card variant="filled" margin={4}>
