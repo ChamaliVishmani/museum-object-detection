@@ -19,7 +19,25 @@ function App() {
   const [objectNo, setObjectNo] = useState();
   return (
     <ChakraProvider>
-      <Container centerContent>
+      <Card
+        backgroundImage={require("./mueumObjects/topImage.jpg")}
+        backgroundSize="cover"
+        minHeight={450}
+        maxHeight={500}
+        width="100%"
+      >
+        <Center>
+          <Heading size="2xl" color="black" padding={4}>
+            Colombo National Museum
+          </Heading>
+        </Center>
+        <Center>
+          <Heading size="2xl" color="GrayText" padding={4}>
+            Cultural Garment Scanner
+          </Heading>
+        </Center>
+      </Card>
+      <Container>
         <Card variant="filled" margin={4}>
           <Center>
             <Heading size="sm" margin="4">
@@ -30,16 +48,18 @@ function App() {
         </Card>
 
         {objectNo == undefined ? (
-          <Card size="lg" margin={4}>
+          <Card size="lg" margin={4} variant={"unstyled"}>
             <Center>
               <Spinner
                 thickness="4px"
-                speed="0.8s"
+                speed="1s"
                 emptyColor="gray.200"
                 color="blue.500"
                 size="xl"
               />
-              <Text padding={4}> Scanning object...</Text>
+              <Text padding={4} color="GrayText">
+                Scanning object...
+              </Text>
             </Center>
           </Card>
         ) : (
@@ -50,7 +70,9 @@ function App() {
                 <Heading size="md">
                   {objectDescription[objectNo].objectName}
                 </Heading>
-                <Text>{objectDescription[objectNo].description}</Text>
+                <Text scrollBehavior={"auto"}>
+                  {objectDescription[objectNo].description}
+                </Text>
               </Stack>
             </CardBody>
           </Card>
