@@ -22,18 +22,23 @@ function App() {
       <Card
         backgroundImage={require("./mueumObjects/topImage.jpg")}
         backgroundSize="cover"
-        minHeight={450}
+        backgroundPosition="center"
+        minHeight={400}
         maxHeight={500}
         width="100%"
-        align={"center"}
+        display="flex"
+        flexDirection="column"
+        justifyContent="center"
+        alignItems="center"
+        textAlign="center"
       >
         <Heading size="2xl" color="black" padding={4}>
           Colombo National Museum
         </Heading>
 
-        <Heading size="2xl" color="GrayText" padding={4}>
+        <Text as="em" fontSize="3xl" color="whitesmoke">
           Cultural Garment Scanner
-        </Heading>
+        </Text>
       </Card>
       <Container>
         <Card variant="filled" margin={4}>
