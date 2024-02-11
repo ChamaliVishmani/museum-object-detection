@@ -7,10 +7,9 @@
 
 ## Web App ScreenShot
 
-<img src="https://github.com/ChamaliVishmani/museum-scanner/assets/75886556/af079abc-868c-4e08-8208-de7af8d1e136" width="50%">
+<img src="https://github.com/ChamaliVishmani/museum-object-detection/assets/75886556/95352cd3-9c69-4c25-b97d-02469fd873f3" width="50%">
 
 ## Demo video
 
-https://github.com/ChamaliVishmani/museum-scanner/assets/75886556/4aaf3819-9a5c-4c14-9ea1-951e2b80ce13
+https://github.com/ChamaliVishmani/museum-object-detection/assets/75886556/f524e7bf-b239-4d4e-9b8f-c7c9110ec428
 
-[model train](https://github.com/ChamaliVishmani/Museum_Ethnic_Garment_Detection)
