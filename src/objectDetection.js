@@ -68,7 +68,7 @@ function ObjectDetection({ setObjectNo }) {
   }, [runCoco]);
 
   return (
-    <Container>
+    <Container margin={"auto"} padding={4}>
       <Webcam
         ref={webcamRef}
         muted={true}
