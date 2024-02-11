@@ -12,3 +12,5 @@
 ## Demo video
 
 https://github.com/ChamaliVishmani/museum-scanner/assets/75886556/4aaf3819-9a5c-4c14-9ea1-951e2b80ce13
+
+[model train](https://github.com/ChamaliVishmani/Museum_Ethnic_Garment_Detection)
